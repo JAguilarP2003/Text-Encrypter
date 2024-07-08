@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encrypter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1 class="title">Text Encrypter</h1>
+    <main class="main">
+        <section id="text-input">
+            <textarea id="encryptedText" class="textInput" placeholder="Enter the text to encrypt"></textarea>
+        </section>
+        <section id="text-output">
+            <textarea id="decryptedText" class="mssg"></textarea>
+            <img src="img/lock-without-bg.png" alt="lock" class="lock-image" width="300px">
+        </section>
+        <div id="buttons">
+            <p><i class="fa fa-exclamation-circle"></i> Only use lowercase without accents</p>
+            <button class="encryptBtn">Encrypt</button>
+            <button class="decryptBtn">Decrypt</button>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">© 2024 by JAguilarP2003</p>
+        <a href="https://github.com/JAguilarP2003">
+            <i class="fa fa-github"></i>
+        </a>
+    </footer>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/titleEffect.js"></script>
+</body>
+</html>
